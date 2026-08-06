@@ -17,3 +17,20 @@ Current multi-modal segmentation methods typically rely on complete data and lab
 <p align="center">
 <b>Figure 1.</b> Overview of the proposed MI2-Net framework.
 </p>
+
+# Setup
+
+**Requirements**
+
+All our experiments are implemented based on the Pytorch framework with two 40G NVIDIA A100 GPUs, and we recommend installing the following package versions:
+
+- python=3.8.20
+- torch=2.4.1
+- torchvision=0.19.1
+
+**Data preparation**
+
+- Download the BraTS2018 data from [MICCAI BraTS 2018](https://www.med.upenn.edu/sbia/brats2018/data.html)
+- Download the BraTS2020 data from [MICCAI BraTS 2020](https://www.med.upenn.edu/cbica/brats2020/)
+- Download the MyoPS2020 data from [MyoPS 2020](http://www.sdspeople.fudan.edu.cn/zhuangxiahai/0/myops20)
+- Set the data path in dataloaders/ BraTS_18_19_processing.py, dataloaders/BraTS_20_21_processing.py, and dataloaders/MyoPS2020_processing.py
