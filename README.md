@@ -67,3 +67,10 @@ cd MI2-Net
 python test_3d_MyoPS.py
 ```
 
+# Acknowledgements
+
+Our code is adapted from [MC-Net+](https://github.com/ycwu1997/MC-Net), [mmFormer](https://github.com/YaoZhang93/mmFormer), and [M2FTrans](https://github.com/Jun-Jie-Shi/M2FTrans). Thanks for these authors for their valuable works and hope our model can promote the relevant research as well.
+
+# Citation
+
+If our MI2-Net model is useful for your research, please consider citing:
