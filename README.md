@@ -39,11 +39,22 @@ All our experiments are implemented based on the Pytorch framework with two 40G 
 
 # Train the model
 
+**BraTS datasets**
+
 ```
 cd MI2-Net
 # e.g., for 101 labels on BraTS2020
 python /home/zht/Code/MI2-Net-main/train_3d_BraTS.py  --dataset_name BraTS2020 --root_path /data1/zht/data/BraTS2020_tar --max_samples 203 --labelnum 101
 ```
+
+**MyoPS datasets**
+
+```
+cd MI2-Net
+# e.g., for 16 labels on MyoPS2020
+python /home/zht/Code/MI2-Net-main/train_3d_MyoPS.py --dataset_name MyoPS2020 --root_path /data1/zht/data/MyoPS2020_tar --max_samples 32 --labelnum 16
+```
+
 
 # Test the model
 
