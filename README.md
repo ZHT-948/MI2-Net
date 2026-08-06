@@ -30,7 +30,40 @@ All our experiments are implemented based on the Pytorch framework with two 40G 
 
 **Data preparation**
 
-- Download the BraTS2018 data from [MICCAI BraTS 2018](https://www.med.upenn.edu/sbia/brats2018/data.html)
-- Download the BraTS2020 data from [MICCAI BraTS 2020](https://www.med.upenn.edu/cbica/brats2020/)
-- Download the MyoPS2020 data from [MyoPS 2020](http://www.sdspeople.fudan.edu.cn/zhuangxiahai/0/myops20)
-- Set the data path in dataloaders/ BraTS_18_19_processing.py, dataloaders/BraTS_20_21_processing.py, and dataloaders/MyoPS2020_processing.py
+- Download the BraTS2018 data from [MICCAI BraTS 2018](https://www.med.upenn.edu/sbia/brats2018/data.html).
+- Download the BraTS2020 data from [MICCAI BraTS 2020](https://www.med.upenn.edu/cbica/brats2020/).
+- Download the MyoPS2020 data from [MyoPS 2020](http://www.sdspeople.fudan.edu.cn/zhuangxiahai/0/myops20).
+- Set the data path in `dataloaders/BraTS_18_19_processing.py`, `dataloaders/BraTS_20_21_processing.py`, and `dataloaders/MyoPS2020_processing.py` and then run them.
+
+**Note:** The BraTS datasets used in this work only include high-grade glioma (HGG) cases.
+
+# Train the model
+
+```
+cd MI2-Net
+# e.g., for 101 labels on BraTS2020
+python /home/zht/Code/MI2-Net-main/train_3d_BraTS.py  --dataset_name BraTS2020 --root_path /data1/zht/data/BraTS2020_tar --max_samples 203 --labelnum 101
+```
+
+# Test the model
+
+**BraTS datasets**
+
+- Changing the paths and hyperparameters in `test_3d_BraTS.py`
+- Then run:
+
+```
+cd MI2-Net
+python test_3d_BraTS.py
+```
+
+**MyoPS datasets**
+
+- Changing the paths and hyperparameters in `test_3d_MyoPS.py`
+- Then run:
+
+```
+cd MI2-Net
+python test_3d_MyoPS.py
+```
+
