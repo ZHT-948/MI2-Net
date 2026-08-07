@@ -1,7 +1,9 @@
-# MI2-Net：A Mamba-based Network for Joint Incomplete Multi-Modal and Incomplete Label MRI Image Segmentation
+# MI2-Net：A Mamba-based network for joint incomplete multi-modal and incomplete label MRI image segmentation
 
 This is the implementation of our work:
-XXX,
+
+[MI2-Net：A Mamba-based network for joint incomplete multi-modal and incomplete label MRI image segmentation](https://doi.org/10.1016/j.media.2026.104241.)
+
 Accepted to MIA 2026
 
 # Abstract
@@ -85,3 +87,15 @@ Our code is adapted from [MC-Net+](https://github.com/ycwu1997/MC-Net), [mmForme
 # Citation
 
 If our MI2-Net model is useful for your research, please consider citing:
+
+```bibtex
+@article{zhang2026mi2net,
+  title={MI2-Net: A Mamba-based network for joint incomplete multi-modal and incomplete label MRI image segmentation},
+  author={Zhang, Haotian and Zhang, Shuaitong and Liang, Shichao and Gao, Ge and Li, Shilong and Wu, Hui and Su, Xingyu and Li, Haiyang and Chen, Duanduan},
+  journal={Medical Image Analysis},
+  volume={114},
+  pages={104241},
+  year={2026},
+  publisher={Elsevier}
+}
+```
