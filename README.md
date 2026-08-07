@@ -4,7 +4,7 @@ This is the implementation of our work:
 
 [MI2-Net：A Mamba-based network for joint incomplete multi-modal and incomplete label MRI image segmentation](https://doi.org/10.1016/j.media.2026.104241.)
 
-Accepted to MIA 2026
+Accepted to MedIA 2026
 
 # Abstract
 
