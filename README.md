@@ -99,3 +99,7 @@ If our MI2-Net model is useful for your research, please consider citing:
   publisher={Elsevier}
 }
 ```
+
+# Questions
+
+If any questions, feel free to contact me at 'hotian_z_99@163.com'
