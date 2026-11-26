@@ -102,4 +102,4 @@ If our MI2-Net model is useful for your research, please consider citing:
 
 # Questions
 
-If any questions, feel free to contact me at 'hotian_z_99@163.com'
+If any questions, feel free to contact me at 'haotian_z_99@163.com'
